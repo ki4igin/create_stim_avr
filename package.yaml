@@ -1,0 +1,9 @@
+package1:
+  header: u8 0x80
+  cnt: i32 -7
+  data: u8[16]
+
+package2:
+  header: u8 0xAA
+  flags: u8 0b00001010
+  data: u8[5] 7 8 4 8 4 1 0 0 0

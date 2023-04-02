@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "create-stim-avr"
+version = "0.1.0"
+description = ""
+authors = ["artem <ki4igin1992@outlook.com>"]
+readme = "README.md"
+packages = [{include = "create_stim_avr"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyyaml = "^6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
