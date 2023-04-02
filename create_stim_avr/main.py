@@ -1,9 +1,8 @@
-from typing import Tuple
 import yaml
 import re
 
 
-def item_parse(item: str) -> Tuple[bytes, str]:
+def item_parse(item: str) -> tuple[bytes, str]:
     item_bytes = bytes()
 
     data_type, *vals = item.split()
